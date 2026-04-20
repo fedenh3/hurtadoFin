@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  text-align: center;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); }
+
+h5, h2, h3 {
+  transition: all 1s;
+  font-size: 30px; }
+
+h5:hover {
+  font-size: 3rem;
+  color: #1f389a; }
+
+h1, h5, h3 {
+  font-family: 'Zilla Slab', serif;
+  font-weight: normal;
+  text-align: center; }
+
+ul, ol {
+  font-family: 'Lato', sans-serif;
+  color: #050505;
+  font-weight: bold;
+  font-size: 24px; }
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  position: relative; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+ul li:hover ul {
+  display: block;
+  background-color: #bdcad9;
+  background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%); }
+
+.formulario {
+  font-size: 18px;
+  margin: 20px; }
+
+.consejos {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center; }
+
+.lista {
+  font-size: 16px;
+  font-weight: bold; }
+
+main {
+  display: flex;
+  flex-wrap: center;
+  justify-content: space-around; }
+
+p {
+  font-size: 1.2rem;
+  font-weight: 425;
+  text-align: center; }
+
+h4 {
+  text-align: center; }
+
+.list-group {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.consejo {
+  text-align: center; }
+
+.faqs {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.faqs1 {
+  font-size: 1.2rem; }
+
+.videos {
+  border: 1px solid #bcb2cc;
+  max-width: 1024px;
+  margin: 100px auto 0; }
+
+.videos video {
+  width: 100%; }
+
+.footerRedes {
+  margin-top: 30px;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+  text-align: center; }
+
+.bi-facebook, .bi-whatsapp, .bi-instagram {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black; }
+  .bi-facebook:hover, .bi-whatsapp:hover, .bi-instagram:hover {
+    color: blue; }
+
+.bi-whatsapp:hover {
+  color: green; }
+
+.bi-instagram:hover {
+  color: red; }
+
+.encabezado {
+  color: black;
+  font-weight: bold;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); }
+
+.container {
+  font-family: Arial, Helvetica, sans-serif; }
+  .container .h1 {
+    font-weight: bold;
+    color: black; }
+  .container .p {
+    font-family: 'Permanent Marker', cursive; }
+  .container .italia {
+    text-align: center; }
